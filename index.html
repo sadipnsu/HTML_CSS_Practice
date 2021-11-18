@@ -1,95 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <title>CSS Cheat Sheet</title>
-             <link rel="stylesheet"  type="text/css"
-               href="css/style.css" >               
-    </head>
-    <body>
-      <div class="container">
-        <div class="box-1">
-          <h1>Assalamualikum</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut pariatur. Nesciunt reprehenderit, officia totam ad dolores quidem amet distinctio, optio dolorem eaque ea expedita provident tempora sint ipsum. Nam?</p>
-        </div>
+  <head>
+        <title> HTML Cheat Sheet</title>
+  </head>
 
-        <div class="box-2">
-          <h2>BoomBoom</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut pariatur. Nesciunt reprehenderit, officia totam ad dolres quidem amet distinctio, optio dolorem eaque ea expedita provident tempora sint ipsum. Nam?</p>
-          <a class ="button" href="">Read More</a>
-        </div>
+  <body>
+	  <a href="My blog.html">go to blog</a>
+        <!-- headings -->
+		<h1>Heading One</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading Two</h3>
+		<h4>Heading Two</h4>
+		<h5>Heading Two</h5>
+		<h6>Heading Two</h6>
 
-        <div class="categories">
-          <h2>Categories</h2>
-          <ul>
-            <li><a href="#">Category 1</a></li>
-            <li><a href="#">Category 2</a></li>
-            <li><a href="#">Category 3</a></li>
-            <li><a href="#">Category 4</a></li>
-          </ul>
+		<!-- Paragraph -->
+		
+		<p>
+		In short, web developers build and maintain websites.
+		Web developers often work for clients who are trying 
+		to get <strong>their product or service</strong> onto the web.
+		The work is typically very project focused and 
+		involves <em>collaborating</em> with a team that helps to <a href="http:google.com" target="_blank">coordinate</a> 
+		the client's needs into the end product.
+		</p>
+		
+		<!-- lists -->
 
-        </div>
-
-        <form class="my-form">
-            <div class="form-group">
-                <label>Name: </label>
-                <input type="text" name="name">
-            </div>
-
-            <div class="form-group">
-              <label for="">Email: </label>
-              <input type="text" name="email">
-            </div>
-
-            <div class="form-group">
-              <label>Message</label>
-              <textarea name="message"></textarea>
-            </div>
-            <input class="button" type="submit" value="Submit" name="">
-
-        </form>
-        <div class="block">
-          <h3>Heading</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nihil minima ab sed mollitia perferendis culpa autem hic recusandae quam voluptas?</p>
-       </div>
-
-       <div class="block">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nihil minima ab sed mollitia perferendis culpa autem hic recusandae quam voluptas?</p>
-      </div>
-
-      <div class="block">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nihil minima ab sed mollitia perferendis culpa autem hic recusandae quam voluptas?</p>
-       </div>
-            <div class="clr"></div>
-       <div id="main-block">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nihil minima ab sed mollitia perferendis culpa autem hic recusandae quam voluptas?</p>
-       
-      </div>
-       <div id="sidebar">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nihil minima ab sed mollitia perferendis culpa autem hic recusandae quam voluptas?</p>
-       </div>
-
-       <div class="clr"></div>
-
-       <div class="p-box">
-         <h1>Sadif</h1>
-         <h2>CSE</h2>
-       </div>
-<ul class="my-list">
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-  <li>item list</li>
-</ul>
-
-    </div>  <!-- Contrainer ends here -->
-    <a class="fix-me button"href="">Click</a>
-    <div style="margin-top: 500px"></div>
-    </body>
+		<ul>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+		
+		
+		<ol>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ol>
+		
+		<!-- TABLE -->
+	    <table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+				
+			<tbody>
+				<tr>
+					<td>Sadip</td>
+					<td>sad@gamil.com</td>
+					<td>25</td>
+				</tr>
+				
+				<tr>
+					<td>Bayezid</td>
+					<td>bay@gamil.com</td>
+					<td>25</td>
+				</tr>
+				
+				<tr>
+					<td>Fardin</td>
+					<td>far@gamil.com</td>
+					<td>25</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<hr>
+				<!-- FORMS -->
+				<form action="process.php" method="POST">
+					<div>
+						<label>first Name</label>
+						<input type="text" name="firstName" placeholder="enter first name">
+					</div>
+					<br>
+					<div> 				
+						<label>Last Name</label>
+						<input type="text" name="lastName" placeholder="enter last name">
+					</div>
+					<br>
+					<div> 				
+						<label>Email</label>
+						<input type="email" name="email">
+					</div>
+					<br>	
+					<div> 				
+						<label>Message</label>
+						<textarea name="message"></textarea>
+					</div>
+					<br>
+					<div> 				
+						<label>Gender</label>
+						<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+						</select>
+					</div>	
+					<br>
+					<div> 				
+						<label>Age</label>
+						<input type="number" name="age" value="30">
+					</div>	
+					<br>
+					<div> 				
+						<label>Birthday</label>
+						<input type="date" name="birthday">
+					</div>
+					<br>					
+					<input type="submit" name="submit" value="Submit">
+					
+				</form>
+				
+				<!-- BUTTON -->
+				
+			  <button>Click ME</button>
+			  
+			  <!-- IMAGE -->
+			  <a href="images/quran.jpg">
+			  <img src = "images/quran.jpg" alt="my sample image" width="200">
+			  </a>
+  </body> 
 </html>
